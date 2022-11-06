@@ -25,7 +25,19 @@ public class ListElement {
         return id;
     }
 
+    public int getX(){
+        return x;
+    }
+
+    public int getY(){
+        return y;
+    }
+
     public void wasCompared(){
         fill = 0;
+    }
+
+    public void reset(){
+        this.fill = 255;
     }
 }
