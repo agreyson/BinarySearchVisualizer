@@ -9,7 +9,6 @@ public class Main extends PApplet {
 
     private int low;
     private int high;
-    private int mid;
     private boolean found;
     private int whereFound;
 
@@ -37,7 +36,7 @@ public class Main extends PApplet {
     @Override
     public void setup() {
         super.setup();
-        elements = new ArrayList<ListElement>();
+        elements = new ArrayList<>();
         int size = width/numElements;
         for (int i = 0; i < numElements; i++){
             int x = (i * size) + (size/2);
